@@ -1,0 +1,9 @@
+pkg/
+.vscode/
+debug
+public/upload/
+server
+.exe
+vendor/
+.lock
+.toml
