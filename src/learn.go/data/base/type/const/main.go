@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//常量只读，不能修改
 const x, y int = 123, 0x22
 const s = "hello world"
 const c = '我'

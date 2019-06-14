@@ -1,15 +1,10 @@
 package main
 
-import (
-	"fmt"
-	"time"
-)
-
 func main() {
-	go task(1)
-	go task(2)
-
-	time.Sleep(time.Second * 6)
+	done := make(chan bool)
+	data := make(chan int)
+	go consumer(data, done)
+	go producer(data)
 }
 
 //

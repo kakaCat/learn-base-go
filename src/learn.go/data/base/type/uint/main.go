@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//初始化值为0.0
 func main() {
 	// uint 可以是uint8 uint16 uint32 uint64 自动转换
 	var foo uint = 18446744073709551615

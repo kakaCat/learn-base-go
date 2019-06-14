@@ -21,10 +21,16 @@ func main() {
 	fmt.Println("func_defer_more result:", l)
 }
 
+//方法没有重载
 func add(a, b int) int {
 
 	return a + b
 }
+
+//func add(a, b,c int) int {
+//
+//	return a + b
+//}
 
 func add_error(a, b int) (int, error) {
 
@@ -52,4 +58,8 @@ func func_defer_more(a, b int) int {
 	fmt.Println("defer start result:", a)
 
 	return a
+}
+
+func func_anonymity(s string) {
+
 }

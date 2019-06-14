@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//初始化值为0
 func main() {
 	// int 可以是int8 int16 int32 int64
 	var foo int = 9223372036854775807

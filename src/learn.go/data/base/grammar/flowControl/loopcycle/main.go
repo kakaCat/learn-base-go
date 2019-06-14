@@ -7,6 +7,7 @@ func main() {
 	for_range()
 }
 
+// break continue
 func fordome() {
 	for i := 0; i < 5; i++ {
 		fmt.Println("for", i)
